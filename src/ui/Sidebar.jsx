@@ -16,7 +16,8 @@ function Sidebar() {
     <StyledSidebar>
       <Logo />
       <MainNav />
-      <Uploader />
+      {/* to remove before push to prod */}
+      {/* <Uploader /> */}
     </StyledSidebar>
   );
 }
